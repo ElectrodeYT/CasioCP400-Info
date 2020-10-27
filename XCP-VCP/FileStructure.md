@@ -13,7 +13,7 @@ Next n-bytes - String of folder name, such as "main"\
 Next 2 bytes - Length of string following, including null-terminator.\
 Next n-bytes - String of variable name\
 Next 8 bytes - Length of some following bytes\
-Next n-bytes - Dont really now\
+Next n-bytes - Dont really know\
 Next 8 bytes - Length of some following bytes\
-Next n-bytes - Dont really now\
+Next n-bytes - Dont really know\
 Next 2 bytes - Checksum
