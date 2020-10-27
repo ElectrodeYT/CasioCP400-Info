@@ -17,3 +17,6 @@ Next n-bytes - Dont really know\
 Next 8 bytes - Length of some following bytes\
 Next n-bytes - Dont really know\
 Next 2 bytes - Checksum
+
+# Weird quirks
+Most "Integers" in the header are ASCII-Encoded Hex. While this on its own is not too absurd, the fact that the text "_MCS" and/or "_FLS" is encoded in this way is weird. The code also stores this "text" in an integer, although on the calculator this is not too absurd - it would save a byte and the developers used a embedded RTOS that would normally see use in alot lower spec applications.
